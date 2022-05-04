@@ -13,13 +13,13 @@ const readline = require("readline").createInterface({
 getVal();
 async function getVal() {
   readline.question(
-    chalk.hex("#38ffd7")(`\n:: What's your weight? You Fat Bish! (In Kg)\n>>`),
+    chalk.hex("#38ffd7")(`\n:: What's your weight? (In Kg)\n>>`),
     (weight) => {
       if (!isNaN(weight)) {
         w = weight;
         readline.question(
           chalk.hex("#38ffd7")(
-            `\n\n:: What's your height shawty ;D (In meters)\n>>>`
+            `\n\n:: What's your height shawty? (In meters)\n>>>`
           ),
           (height) => {
             if (!isNaN(height)) {
@@ -55,16 +55,16 @@ async function calcBMI(weight, height) {
     console.clear();
     if (calculatedVal > 18.5 && calculatedVal < 24.9) {
       return (
-        console.log(chalk.hex("#ff00a2")(`Height -> ${h}\n Weight -> ${w}`)),
+        console.log(chalk.hex("#ff00a2")(`Height -> ${h}\nWeight -> ${w}`)),
         console.log(
-          `\n😃 Your BMI is ${chalk.hex("#33ff00")(calculatedVal + "%")}\n\n`
+          `\nYour BMI is ${chalk.hex("#33ff00")(calculatedVal + "%")}\n\n`
         )
       );
     } else {
       return (
         console.log(chalk.hex("#ff00a2")(`Height -> ${h+' kg'}\nWeight -> ${w+' m'}`)),
         console.log(
-          `\n💀 Your BMI is ${chalk.hex("#ff0000")(calculatedVal + "%")}\n\n`
+          `\nYour BMI is ${chalk.hex("#ff0000")(calculatedVal + "%")}\n\n`
         )
       );
     }
