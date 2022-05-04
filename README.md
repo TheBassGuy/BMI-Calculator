@@ -29,5 +29,5 @@
 <img src="https://www.abdroid.tech/images/bmi_calc_output.png">
 
 
-<h1>Thank You 😃</h1>
+<h2>Thank You 😃</h2>
 
