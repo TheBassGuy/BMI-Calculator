@@ -3,12 +3,12 @@
 
 <h3 style="margin-bottom:40px">This is a BMI(Body Mass Index) calculator made in javascript</h3>
 
-<h4 style="font-weight:100;font-size:1.2rem">Make sure that <span style="font-weight:600">Node.js</span> is installed else <a href="https://nodejs.org/en/download/"><u>install Node.js</u></a></h4>
+<h4 style="font-weight:100;font-size:1.2rem">Make sure that <span style="font-weight:600">Node.js</span> is installed else <a href="https://nodejs.org/en/download/" target="_blank"><u>install Node.js</u></a></h4>
 
 <h5 style="font-weight:10;"><u>To use this run</u></h5>
 
 <h5 style="font-size:0.9rem">This will clone the repo</h5>
-<code style="padding:10px">git clone <a>https://github.com/abhayst007/BMI-Calculator</a></code>
+<code style="padding:10px">git clone <a href="https://github.com/abhayst007/BMI-Calculator/">https://github.com/abhayst007/BMI-Calculator</a></code>
 <br>
 <br>
 
