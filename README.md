@@ -12,6 +12,13 @@
 <br>
 <br>
 
+<h5 style="font-size:0.9rem">Get into the directory</h5>
+<code style="padding:10px">cd BMI-Calculator</code>
+
+
+<br>
+<br>
+
 <h5 style="font-size:0.9rem">This will install the dependencies</h5>
 <code style="padding:10px">npm install</code>
 <br>
