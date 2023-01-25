@@ -19,7 +19,7 @@ async function getVal() {
         w = weight;
         readline.question(
           chalk.hex("#38ffd7")(
-            `\n\n:: What's your height shawty? (In meters)\n>>>`
+            `\n\n:: What's your height shawty giga? (In meters)\n>>>`
           ),
           (height) => {
             if (!isNaN(height)) {
@@ -28,7 +28,7 @@ async function getVal() {
             } else {
               console.clear();
               console.log(
-                chalk.hex("#ff0000")("Please enter a numeric value !")
+                chalk.hex("#ff0000")("Please enter a numeric value bruh!")
               );
               getVal();
             }
@@ -36,7 +36,7 @@ async function getVal() {
         );
       } else {
         console.clear();
-        console.log(chalk.hex("#ff0000")("Please enter a numeric value !"));
+        console.log(chalk.hex("#ff0000")("Please enter a numeric value bruh!"));
         getVal();
       }
     }
